@@ -10,10 +10,7 @@ DATA = MappingProxyType({str(i): i for i in range(100000)})
 
 
 async def get_data(_):
-    try:
-        return json_response(dict(DATA))
-    except:
-        return Response(text="Fuck")
+    return json_response(dict(DATA))
 
 
 @pytest.fixture

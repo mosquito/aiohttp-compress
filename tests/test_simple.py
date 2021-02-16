@@ -2,7 +2,7 @@ from types import MappingProxyType
 
 import pytest
 from aiohttp import web, test_utils, hdrs
-from aiohttp.web import json_response, Response
+from aiohttp.web import json_response
 from aiohttp_compress import compress_middleware
 
 

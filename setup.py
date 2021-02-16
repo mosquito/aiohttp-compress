@@ -53,6 +53,6 @@ setup(
         ],
     },
     project_urls={
-        "Source": "https://github.com/mosquito/aiohttp-gzip",
+        "Source": "https://github.com/mosquito/aiohttp-compress",
     },
 )

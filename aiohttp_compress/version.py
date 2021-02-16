@@ -2,7 +2,7 @@ author_info = (("Dmitry Orlov", "me@mosquito.su"),)
 
 package_info = (
     "This module is the simplest way to enable compression support "
-    "for `aiohttp` server applications globally."
+    "for aiohttp server applications globally."
 )
 package_license = "Apache Software License"
 

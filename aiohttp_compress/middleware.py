@@ -24,6 +24,6 @@ async def compress_middleware(
         return await handler(request)
 
     resp = await handler(request)
-    resp.headers[hdrs.ACCEPT_ENCODING] = compressor
+    resp.headers[hdrs.CONTENT_ENCODING] = compressor
     resp.enable_compression()
     return resp
